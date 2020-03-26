@@ -1,0 +1,65 @@
+// Placeholder for icons in Feature section
+
+%features-icon {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: #1ab798;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 6px;
+}
+
+// Placeholder for icons in Video section
+
+%video-icon {
+  display: block;
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  background-color: #0098cd;
+}
+
+// Placeholder for socials icons in Team section
+
+%team-icon {
+  display: block;
+  width: 42px;
+  height: 42px;
+  background-color: #000000;
+  fill: #ffffff;
+}
+
+// Placeholder for photo in Feedback section
+
+%feedback-photo {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #c4c7c7;
+}
+
+// Placeholder for socials icons in Contact section
+
+%contact-icon {
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+// Placeholder for lines captions
+
+%caption-line {
+  display: block;
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: #babdc1;
+  margin-top: 5px;
+}
