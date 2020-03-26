@@ -1,6 +1,4 @@
-<svg 
- xmlns="http://www.w3.org/2000/svg"
- xmlns:xlink="http://www.w3.org/1999/xlink"
- width="30px" height="28px">
-<image  x="0px" y="0px" width="30px" height="28px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAMAAABBJv+bAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAANlBMVEUat5gat5gat5gat5gat5gat5gat5gat5gat5gat5gat5gat5gat5gat5gat5gat5gat5j////mtl2uAAAAEHRSTlMAFWiALOgty8z9QPrKK+dpWxs7PAAAAAFiS0dEEeK1PboAAAAHdElNRQfkAxoSLRFsPTMcAAAAf0lEQVQoz62TSw6AIAxEy09FUHr/02qhQRclKDqrpo8Mk1IAlDaStAKSdSjLTYRnbGkh7BFFc0RP+DwGkrj/CLPjykXpU1EwpzFc1M4H3DG/olUsJ694KPndU8B1LN+Sv8B/zbzzoKPbEpqrGAjH5iJHwtveoM7mS1QSzVP+RAdBcht3OHVLnAAAAABJRU5ErkJggg==" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 30 28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<image width="30" height="28" data-name="icon board" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAMAAABBJv+bAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAOVBMVEUat5j///8at5gat5gat5gat5gat5gat5gat5gat5gat5gat5gat5gat5gat5gat5gat5gat5gAAAAW8oYWAAAAEXRSTlMAABVogCzoLcvM/UD6yivnaYYvyQkAAAABYktHRBJ7vGwAAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4wcLEREejRdPqQAAAIFJREFUKM+tk8kOgDAIRLGt+8r//6xgCXqAqNU5kb5mMmEBCDFZiqEiQd2graZl3KGnnvGAaJojDozpG1xViej9MRbHUYqMqRAsaZIUGTMqxzfmZzTFdnLFRclVNta2fEv+Av/V85uBlm7L5K7ixHh2F3lmvKzeGdSMIWym+XYc0Q73PB5AbYu11AAAAABJRU5ErkJggg=="/>
 </svg>
