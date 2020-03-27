@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.logo {
+  @include font-full($font-title, 22px, 600, $col-turquoise, capitalize);
+}
+
 .menu-block {
   display: block;
   width: 30px;
@@ -13,6 +17,7 @@
   position: relative;
   visibility: visible;
   background: url(../images/icons/burger.png) center no-repeat;
+
   &:hover .menu {
     visibility: visible;
   }
@@ -22,11 +27,32 @@
   position: absolute;
   z-index: 2;
   top: 0;
-  left: -150px;
+  left: -124px;
   display: flex;
   flex-direction: column;
   list-style: none;
   visibility: hidden;
   margin: 0;
-  width: 150px;
+  width: 124px;
+  padding: 0;
+}
+
+.menu li {
+  background-color: #ffffff;
+  padding-left: 5px;
+  border: 1px solid $col-text;
+  border-bottom: none;
+
+  &:nth-last-child(1) {
+    border-bottom: 1px solid $col-text;
+  }
+}
+
+.menu li a {
+  @include font-full($font-text, 14px, 700, $col-text, uppercase);
+  opacity: 0.6;
+
+  &:hover {
+    opacity: 1;
+  }
 }
