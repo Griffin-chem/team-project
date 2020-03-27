@@ -17,6 +17,7 @@
   position: relative;
   visibility: visible;
   background: url(../images/icons/burger.png) center no-repeat;
+  cursor: pointer;
 
   &:hover .menu {
     visibility: visible;

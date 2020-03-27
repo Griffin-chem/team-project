@@ -8,6 +8,7 @@
 .header-content {
   position: relative;
   padding-top: 83px;
+  cursor: default;
 }
 
 .header-title {
@@ -48,4 +49,5 @@
   background: url(../../../images/icons/1cloud-download.svg) 22px no-repeat, $col-turquoise;
   text-indent: 70px;
   text-align: left;
+  cursor: pointer;
 }
