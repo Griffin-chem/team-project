@@ -1,0 +1,104 @@
+.footer-wrap {
+  min-height: 875px;
+  background-color: rgb(24, 24, 24);
+  background-image: url(/src/images/footer.jpg);
+  background-size: cover;
+}
+
+.aling {
+  text-align: center;
+}
+
+.footer-title {
+  position: relative;
+  @include font-full($font-title, 28px, bold, $col-white, uppercase);
+  line-height: 24px;
+  margin-bottom: 15px;
+  
+}
+
+
+
+.input-inf {
+  @include font-full($font-text, 16px, normal, $col-text, none);
+  line-height: 24px;
+  border-radius: 5px;
+  border: 2px solid $col-white;
+  height: 50px;
+  width: 270px;
+  padding-left: 20px;
+  margin-top: 30px;
+}
+
+.input-text {
+  @include font-full($font-text, 16px, normal, $col-text, none);
+  line-height: 24px;
+  border-radius: 5px;
+  border: 2px solid $col-white;
+  height: 175px;
+  width: 270px;
+  padding-left: 20px;
+  margin-top: 50px;
+}
+
+.button-and {
+  @include font-full($font-text, 22px, normal, $col-white, uppercase);
+  line-height: 24px;
+  background-color: $col-turquoise;
+  height: 50px;
+  width: 170px;
+  border-radius: 5px;
+  border: 2px solid var(--colG);
+  margin-top: 45px;
+  outline: 0;
+}
+
+.title-content {
+  @include font-full($font-title, 24px, bold, $col-white, none);
+  line-height: 24px;
+  margin-top: 30px;
+}
+
+.text-content {
+  @include font-full($font-text, 14px, 400, rgba(255, 255, 255, 0.502), none);
+  line-height: 21px;
+margin-bottom: 35px;
+}
+
+.icon {
+  display: inline-block;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 25px;
+}
+
+.facebook {
+  background-color: rgb(0, 122, 185);
+}
+
+.twitter {
+  background-color: rgb(62, 194, 243);
+}
+
+.linkedin {
+  background-color: rgb(0, 122, 185);
+}
+
+
+.contakt-inf {
+  @include font-full($font-text, 14px, 400, rgb(191, 172, 226), none);
+  line-height: 24px;
+  margin: 0;
+}
+
+.text-end {
+  @include font-full($font-text, 14px, 400, $col-after, none);
+  line-height: 21px;
+  text-align: left;
+}
+
+.up {
+  display: block;
+}
+
