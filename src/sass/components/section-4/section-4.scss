@@ -1,9 +1,6 @@
 .feedback-img {
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(196, 199, 199);
-  border-radius: 50%;
-  margin: 0 auto 32px;
+  @extend %feedback-photo;
+  margin: 0 auto 16px;
 }
 
 .feedback-card {
@@ -11,14 +8,77 @@
   text-align: center;
 }
 
-.feedback-text {
-  font-size: 16px;
-  font-family: "OpenSans";
-  color: rgb(40, 37, 40);
-  line-height: 1.625;
-  text-align: center;
+.feedback-title::before {
+  position: absolute;
+  transform: translate(-78px, 10px);
+  @extend %caption-line;
+}
+
+.feedback-title::after {
+  position: absolute;
+  transform: translate(16px, 10px);
+  @extend %caption-line;
+}
+
+.feedback-title {
+  position: relative;
+  color: $col-turquoise;
+  margin-bottom: 52px;
+}
+
+.name {
+  font-size: 18px;
+  font-family: $font-text;
+  color: $col-team;
+  margin-bottom: 4px;
 }
 
 .post {
-  margin-bottom: 32px;
+  font-family: $font-text;
+  font-size: 13px;
+  color: rgba(6, 32, 51, 0.561);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.feedback-text {
+  position: relative;
+  font-size: 16px;
+  font-family: $font-text;
+  color: $col-text;
+  line-height: 1.325;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.feedback-text::before {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  background-image: url(../images/quotes.png);
+  width: 52px;
+  height: 40px;
+  transform: translate(-40px, -18px);
+  z-index: -1;
+}
+
+.feedback-slider {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 62px;
+  padding-left: 0;
+}
+
+.feedback-pagination {
+  display: inline-block;
+  margin-right: 8px;
+  background-color: #d4d3d4;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.active {
+  background-color: #1ab798;
 }

@@ -56,10 +56,10 @@
 // Placeholder for lines captions
 
 %caption-line {
-  display: block;
+  display: inline-block;
   content: "";
   width: 60px;
   height: 1px;
   background-color: #babdc1;
-  margin-top: 5px;
+  // margin-top: 5px;
 }
