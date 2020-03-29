@@ -1,0 +1,37 @@
+@media screen and (min-width:1200px) {
+  .header-content {
+    padding: 170px 34px 0 48px;
+  }
+
+  .header-image-top {
+    display: block;
+    top: 172px;
+    left: auto;
+    right: 166px;
+    height: 600px;
+    width: 346px;
+  }
+
+  .header-image-bottom {
+    display: block;
+    top: 108px;
+    left: auto;
+    right: 60px;
+    height: 662px;
+    width: 382px;
+  }
+
+  .navigation {
+    padding-left: 48px;
+    padding-right: 34px;
+  }
+
+  .menu {
+    left: -425px;
+    width: 455px;
+  }
+
+  .menu li a {
+    font-size: 13px;
+  }
+}
