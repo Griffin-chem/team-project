@@ -1,0 +1,95 @@
+@media screen and (min-width:768px) {
+  .site-header {
+    height: 758px;
+    padding-top: 30px;
+  }
+
+  .header-content {
+    padding-top: 170px;
+  }
+
+
+  .header-title {
+    font-size: 42px;
+  }
+
+  .header-subtitle {
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 38px;
+  }
+
+  .header-list {
+    font-size: 16px;
+    margin-bottom: 70px;
+  }
+
+  .header-image-top {
+    display: block;
+    top: 340px;
+    left: 437px;
+    height: 402px;
+    width: 232px;
+  }
+
+  .header-image-bottom {
+    display: block;
+    top: 298px;
+    left: 484px;
+    height: 444px;
+    width: 256px;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+
+  .menu-block {
+    visibility: hidden;
+    height: 100%;
+  }
+
+  .menu {
+    position: relative;
+    left: -418px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    visibility: visible;
+    margin: 0;
+    width: 448px;
+    padding: 0;
+  }
+
+  .menu li {
+    background-color: inherit;
+    padding-left: 0px;
+    border: none;
+
+    &:nth-last-child(1) {
+      border-bottom: none;
+    }
+  }
+
+  .menu li a {
+    font-size: 12px;
+  }
+
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .row {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+  
+  .col-12 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

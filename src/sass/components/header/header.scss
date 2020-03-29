@@ -51,3 +51,18 @@
   text-align: left;
   cursor: pointer;
 }
+.header-image-top {
+  display: none;
+  position: absolute;
+  background: url(../../../images/phone.png) center no-repeat;
+  background-size: cover;
+  z-index: 3;
+}
+
+.header-image-bottom {
+  display: none;
+  position: absolute;
+  background: url(../../../images/phone.png) center no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
