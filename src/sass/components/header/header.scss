@@ -1,6 +1,6 @@
 .site-header {
   height: 568px;
-  background: url(../../images/header-background.jpg) center no-repeat;
+  background: url(../images/header-background.jpg) center no-repeat;
   background-size: cover;
   padding-top: 21px;
 }
@@ -46,7 +46,7 @@
   border: none;
   border-radius: 3px;
   @include font-full($font-text, 20px, 600, $col-white, capitalize);
-  background: url(../../../images/icons/1cloud-download.svg) 22px no-repeat, $col-turquoise;
+  background: url(../images/icons/1cloud-download.svg) 22px no-repeat, $col-turquoise;
   text-indent: 70px;
   text-align: left;
   cursor: pointer;
@@ -54,7 +54,7 @@
 .header-image-top {
   display: none;
   position: absolute;
-  background: url(../../../images/phone.png) center no-repeat;
+  background: url(../images/phone.png) center no-repeat;
   background-size: cover;
   z-index: 3;
 }
@@ -62,7 +62,7 @@
 .header-image-bottom {
   display: none;
   position: absolute;
-  background: url(../../../images/phone.png) center no-repeat;
+  background: url(../images/phone.png) center no-repeat;
   background-size: cover;
   z-index: 2;
 }
