@@ -1,0 +1,78 @@
+@media screen and (min-width:768px) {
+  .site-header {
+    height: 758px;
+    padding-top: 30px;
+  }
+
+  .header-content {
+    padding-top: 165px;
+  }
+
+
+  .header-title {
+    font-size: 42px;
+  }
+
+  .header-subtitle {
+    font-size: 22px;
+  }
+
+  .header-list {
+    font-size: 16px;
+    margin-bottom: 70px;
+  }
+
+  .header-image-top {
+    display: block;
+    top: 325px;
+    left: 437px;
+    height: 402px;
+    width: 232px;
+  }
+
+  .header-image-bottom {
+    display: block;
+    top: 282px;
+    left: 484px;
+    height: 444px;
+    width: 256px;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+
+  .menu-block {
+    visibility: hidden;
+    height: 100%;
+  }
+
+  .menu {
+    position: relative;
+    left: -418px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    visibility: visible;
+    margin: 0;
+    width: 448px;
+    padding: 0;
+  }
+
+  .menu li {
+    background-color: inherit;
+    padding-left: 0px;
+    border: none;
+
+    &:nth-last-child(1) {
+      border-bottom: none;
+    }
+  }
+
+  .menu li a {
+    font-style: 12px;
+  }
+}
