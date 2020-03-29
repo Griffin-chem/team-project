@@ -5,31 +5,33 @@
   padding-top: 58px;
 }
 
-// .team-title::before,
-// .team-title::after{
-//     content: "";
-//   height: 1px;
-//   width: 62px;
-//   background-color: $col-after;
+.team-title::before,
+.team-title::after {
+  content: "";
+  height: 1px;
+  width: 62px;
+  background-color: $col-after;
 
-//   display: flex;
-//   margin-top: 0px;
-//   opacity: 1;
-// }
-// .team-title::before{
-//   margin-top: 0px;
-// }
+  display: flex;
+  margin-top: 0px;
+  opacity: 1;
+}
+
+.team-title::before {
+  margin-top: 0px;
+}
 
 
 .team-title::after {
   margin-top: -3pxpx;
-  margin-right: ;
+  margin-right: 0;
 }
 
 .team-text {
   @include font-full($font-text, 16px, 400, $col-team, none);
   line-height: 1.5;
   text-align: center;
+  align-items: center;
   padding-bottom: 52px;
 }
 
@@ -71,11 +73,16 @@
   align-items: center;
   opacity: 0;
 
-  &:hover {
-    opacity: 1;
-    transition: opacity 200ms linear;
+}
 
-  }
+.partner-item:hover .card-overlay {
+  opacity: 1;
+  transition: opacity 200ms linear;
+}
+
+.partner-item:hover .team-name {
+  color: $col-turquoise;
+  transition: color 200ms linear;
 }
 
 .card-overlay-title {
@@ -109,6 +116,15 @@
 .social__item svg {
   width: 27px;
   height: 27px;
-
   fill: $col-white;
+  // @extend %team-icon;
+}
+
+
+.section-title::after {
+  @extend %caption-line-after;
+}
+
+.section-title::before {
+  @extend %caption-line-before;
 }
