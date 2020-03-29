@@ -5,7 +5,7 @@
   }
 
   .header-content {
-    padding-top: 170px;
+    padding: 170px 30px 0 30px;
   }
 
 
@@ -38,6 +38,11 @@
     left: 484px;
     height: 444px;
     width: 256px;
+  }
+
+  .navigation {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .logo {
