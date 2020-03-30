@@ -63,3 +63,22 @@
   background-color: #babdc1;
   // margin-top: 5px;
 }
+
+%caption-line-after {
+  display: block;
+  content: “”;
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  background-color: #BABDC1;
+  transform: translate(262px, -10px);
+}
+%caption-line-before {
+  display: block;
+  content: “”;
+  width: 60px;
+  height: 1px;
+  background-color: #BABDC1;
+  position: absolute;
+  transform: translate(50px, 10px);
+}
