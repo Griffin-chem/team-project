@@ -3,6 +3,16 @@
   margin: 0 auto 16px;
 }
 
+.feedback-title {
+  font-size: 18px;
+  font-family: $font-title;
+  font-weight: bold;
+  position: relative;
+  color: $col-turquoise;
+  text-align: center;
+  margin-bottom: 52px;
+}
+
 .feedback-card {
   display: inline-block;
   text-align: center;
@@ -10,20 +20,14 @@
 
 .feedback-title::before {
   position: absolute;
-  transform: translate(-78px, 10px);
+  transform: translate(-78px, 11px);
   @extend %caption-line;
 }
 
 .feedback-title::after {
   position: absolute;
-  transform: translate(16px, 10px);
+  transform: translate(16px, 11px);
   @extend %caption-line;
-}
-
-.feedback-title {
-  position: relative;
-  color: $col-turquoise;
-  margin-bottom: 52px;
 }
 
 .name {
@@ -49,7 +53,7 @@
   color: $col-text;
   line-height: 1.325;
   text-align: center;
-  margin-bottom: 0;
+  padding: 0 30px 0;
 }
 
 .feedback-text::before {
