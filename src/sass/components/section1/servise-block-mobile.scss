@@ -1,0 +1,78 @@
+.servise-block {
+    height: 1082px;
+    padding: 0;
+    margin: 0 auto;
+}
+.section-colums{
+    display: block;
+    width: 292px;
+    margin: 0 auto;
+    padding: 0;
+}
+.section-title {
+    position: relative;
+    font-size: 18px;
+    font-family: $font-title;
+    color: $col-turquoise;
+    font-weight: bold;
+    margin: 60px auto 38px;
+    text-align: center;
+    text-transform: uppercase;
+&::after {
+    @extend %caption-line-after;
+    }
+&::before {
+    @extend %caption-line-before;
+    }
+}
+.section-paragraph {
+    display: block;
+    width: 296px;
+    font-size: 16px;
+    font-family: $font-text;
+    color: $col-text;
+    text-align: center;
+    margin: 0 auto 40px;
+    line-height: 24px;
+}
+.section-svg::after {
+    @extend %features-icon;
+    background-image: url("/src/images/icons/hub02.svg");
+}
+.section-svg1::after {
+    @extend %features-icon;
+    background-image: url("/src/images/icons/hub02.svg");
+}
+.section-svg2::after {
+    @extend %features-icon;
+    background-image: url("/src/images/icons/up03.svg");
+}
+.section-svg3::after {
+    @extend %features-icon;
+    background-image: url("/src/images/icons/star04.svg");
+}
+.section-svg4::after {
+    @extend %features-icon;
+    background-image: url("/src/images/icons/bell05.svg");
+}
+.section-svg5::after {
+    @extend %features-icon;
+    background-image: url("/src/images/icons/share06.svg");
+}
+.section-subtitle {
+    position: relative;
+    font-size: 18px;
+    font-family: $font-title;
+    color: $col-text;
+    font-weight: bold;
+    padding: 0 0 22px 70px;
+    margin: 0;
+}
+.section-description {
+    font-size: 13px;
+    font-family: $font-text;
+    color: $col-text;
+    line-height: 20px;
+    padding: 0 0 38px 70px;
+    margin: 0;
+}
