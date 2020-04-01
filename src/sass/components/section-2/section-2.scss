@@ -14,7 +14,7 @@
   background-color: rgb(49, 212, 231);
 }
 
-h2 {
+.video-title {
   font-size: 18px;
   font-family: $font-title;
   color: rgb(34, 34, 34);
@@ -29,7 +29,6 @@ h2 {
   font-size: 16px;
   font-family: $font-text;
   color: rgb(255, 255, 255);
-  width: 243px;
   margin: 0 auto 26px;
   line-height: 1.525;
 }
@@ -60,14 +59,19 @@ h2 {
 .os-download {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 .video {
   text-align: center;
-  padding-left: 0;
   margin-bottom: 50px;
 }
 
-.video-poster {
-  border-radius: 4%;
+.player {
+  width: 290px;
+  height: 216px;
+  border-top-left-radius: 4%;
+  border-top-right-radius: 4%;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
