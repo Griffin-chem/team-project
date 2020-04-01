@@ -3,15 +3,14 @@
 %features-icon {
   display: block;
   position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
+  top: 2px;
+  left: -14px;
+  content: '';
   width: 30px;
   height: 30px;
-  background: #1ab798;
+  fill: #1ab798;
   background-position: center;
   background-repeat: no-repeat;
-  padding-left: 6px;
 }
 
 // Placeholder for icons in Video section
@@ -62,4 +61,22 @@
   height: 1px;
   background-color: #babdc1;
   // margin-top: 5px;
+}
+
+%caption-line-after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  background-color: #BABDC1;
+  transform: translate(10px, 10px);
+}
+
+%caption-line-before {
+  content: '';
+  width: 60px;
+  height: 1px;
+  background-color: #BABDC1;
+  position: absolute;
+  transform: translate(-70px, 10px);
 }
