@@ -1,8 +1,8 @@
 .team-title {
-  @include font-full($font-title, 20px, 600, $col-turquoise, uppercase);
+  @include font-full($font-title, 18px, 600, $col-turquoise, uppercase);
   line-height: 1.2;
   text-align: center;
-  padding-top: 58px;
+  padding-top: 50px;
   color: $col-turquoise;
 }
 
@@ -29,6 +29,7 @@
   margin-top: -3px;
   margin-right: 0;
   @extend %caption-line-after;
+
   transform: translate(262px, -10px);
 }
 
@@ -39,6 +40,8 @@
   text-align: center;
   align-items: center;
   padding-bottom: 52px;
+  width: 320px;
+  padding-left: 40px;
 }
 
 
@@ -54,7 +57,7 @@
   @include font-full($font-text, 13px, 400, $col-team, none);
   line-height: 1.846;
   text-align: center;
-  padding-bottom: 46px;
+  padding-bottom: 52px;
   margin: 0;
 }
 
@@ -91,14 +94,21 @@
   transition: color 200ms linear;
 }
 
-.social__link svg {
+.social-link .social-icon {
   fill: $col-white;
-  width: 23;
-  height: 23;
+  width: 23px;
+  height: 23px;
+  width: 100%;
+  height: 100%;
+
 }
 
 .partner-item {
   text-align: center;
+}
+
+.social-link:hover .social-icon {
+  stroke: $col-team;
 }
 
 .card-overlay-title {
@@ -119,7 +129,7 @@
   margin: 0;
 }
 
-.social__link {
+.social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,37 +140,9 @@
   color: $col-white;
 }
 
-.social__item .svg {
+.social-item .social-link {
   width: 27px;
   height: 27px;
   fill: $col-white;
   @extend %team-icon;
-}
-
-
-
-@media (min-width: 768px) {
-
-  .team-title {
-    @include font-full($font-title, 28px, 600, $col-turquoise, uppercase);
-    padding-top: 108px;
-    color: $col-turquoise;
-  }
-
-
-  .team-title::before {
-    margin-top: 0px;
-    @extend %caption-line-before;
-    transform: translate(58px, 10px);
-  }
-
-
-  .team-title::after {
-    margin-top: -3px;
-    margin-right: 0;
-    @extend %caption-line-after;
-    transform: translate(262px, -10px);
-  }
-
-
 }
