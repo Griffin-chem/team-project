@@ -3,6 +3,7 @@
   line-height: 1.2;
   text-align: center;
   padding-top: 58px;
+  color: $col-turquoise;
 }
 
 .team-title::before,
@@ -19,13 +20,18 @@
 
 .team-title::before {
   margin-top: 0px;
+  @extend %caption-line-before;
+  transform: translate(58px, 10px);
 }
 
 
 .team-title::after {
-  margin-top: -3pxpx;
+  margin-top: -3px;
   margin-right: 0;
+  @extend %caption-line-after;
+  transform: translate(262px, -10px);
 }
+
 
 .team-text {
   @include font-full($font-text, 16px, 400, $col-team, none);
@@ -87,6 +93,8 @@
 
 .social__link svg {
   fill: $col-white;
+  width: 23;
+  height: 23;
 }
 
 .partner-item {
@@ -118,22 +126,41 @@
   width: 43px;
   height: 43px;
   background-color: rgba(0, 0, 0, 0.302);
-  // padding: 1px;
-  // border: 2px solid rgba(26, 183, 152, 0.5);
+  margin: 2px;
+  color: $col-white;
 }
 
-.social__item svg {
+.social__item .svg {
   width: 27px;
   height: 27px;
   fill: $col-white;
-  // @extend %team-icon;
+  @extend %team-icon;
 }
 
 
-.section-title::after {
-  @extend %caption-line-after;
-}
 
-.section-title::before {
-  @extend %caption-line-before;
+@media (min-width: 768px) {
+
+  .team-title {
+    @include font-full($font-title, 28px, 600, $col-turquoise, uppercase);
+    padding-top: 108px;
+    color: $col-turquoise;
+  }
+
+
+  .team-title::before {
+    margin-top: 0px;
+    @extend %caption-line-before;
+    transform: translate(58px, 10px);
+  }
+
+
+  .team-title::after {
+    margin-top: -3px;
+    margin-right: 0;
+    @extend %caption-line-after;
+    transform: translate(262px, -10px);
+  }
+
+
 }
