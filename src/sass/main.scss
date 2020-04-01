@@ -11,5 +11,14 @@
 @import 'helper/placeholders.scss';
 @import 'components/header/header.scss';
 @import 'components/header/navigation.scss';
+@import 'components/header/media-tablet-header.scss';
+@import 'components/header/media-desktop-header.scss';
+@import 'components/header/media-retina-header.scss';
+@import 'components/section1/servise-block-mobile.scss';
+@import 'components/section1/servise-block-tablet.scss';
+@import 'components/section1/servise-block-desktop.scss';
+@import 'components/section-2/section-2.scss';
+@import 'components/team.scss';
+@import 'components/section-4/section-4.scss';
+@import 'components/media-section2-4.scss';
 @import 'components/footer/footer.scss';
-@import 'components/footer/footer-media.scss';
