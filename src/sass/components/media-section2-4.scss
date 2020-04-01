@@ -1,0 +1,113 @@
+@media (min-width: 768px) {
+  .video-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .video-text {
+    line-height: 1.625;
+    margin-bottom: 28px;
+  }
+
+  .os-download {
+    margin-bottom: 56px;
+  }
+
+  .video {
+    margin-bottom: 110px;
+  }
+
+  .player {
+    width: 504px;
+    height: 310px;
+  }
+
+
+  .feedback-title {
+    font-size: 28px;
+    margin-bottom: 66px;
+
+  }
+
+  .feedback-title::before {
+    transform: translate(-78px, 14px);
+  }
+
+  .feedback-title::after {
+    transform: translate(16px, 14px);
+  }
+
+  .feedback-img {
+    margin-bottom: 30px;
+  }
+
+  .post {
+    margin-bottom: 64px;
+  }
+
+  .feedback-text {
+    font-size: 18px;
+    margin-bottom: 68px;
+    line-height: 2;
+  }
+
+  .feedback-text::before {
+    content: '';
+    transform: translate(-60px, -12px);
+  }
+
+  .feedback-slider {
+    margin-bottom: 108px;
+  }
+
+}
+
+@media (min-width: 1140px) {
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .video-title {
+    font-size: 28px;
+    text-align: left;
+  }
+
+  .video-text {
+    text-align: left;
+  }
+
+  .os-download {
+    justify-content: left;
+  }
+
+  .player {
+    width: 498px;
+    height: 310px;
+  }
+
+  .feedback-title {
+    font-size: 28px;
+  }
+
+  .post {
+    margin-bottom: 88px;
+  }
+
+  .feedback-text {
+    line-height: 2;
+    margin-bottom: 58px;
+  }
+
+}
+
+@media (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .video-poster {
+    background-image: url(../images/player@2x.png);
+  }
+
+  .feedback-text::before {
+    background-image: url(../images/quotes@2x.png);
+  }
+}
