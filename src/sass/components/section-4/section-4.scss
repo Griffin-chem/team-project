@@ -1,3 +1,7 @@
+.section-feedback {
+  padding-top: 32px;
+}
+
 .feedback-img {
   @extend %feedback-photo;
   margin: 0 auto 16px;
@@ -9,8 +13,10 @@
   font-weight: bold;
   position: relative;
   color: $col-turquoise;
+  width: 154px;
+  line-height: 1.556;
+  margin: 0 auto 52px;
   text-align: center;
-  margin-bottom: 52px;
 }
 
 .feedback-card {
@@ -20,13 +26,13 @@
 
 .feedback-title::before {
   position: absolute;
-  transform: translate(-78px, 11px);
+  transform: translate(-78px, 13px);
   @extend %caption-line;
 }
 
 .feedback-title::after {
   position: absolute;
-  transform: translate(16px, 11px);
+  transform: translate(-8px, -13px);
   @extend %caption-line;
 }
 
