@@ -1,7 +1,4 @@
 @media (min-width: 768px){
-    .servise-block {
-        height: 980px;
-    }
     .section-colums{
         display: -webkit-box;
         display: -ms-flexbox;
@@ -29,32 +26,32 @@
         line-height: 28px;
     }
     .section-svg::after {
-        left: -18px;
+        left: 0px;
     }
     .section-svg1::after {
-        left: -18px;
-        background-image: url("/src/images/icons/star04.svg");
+        left: 0px;
+        background-image: url("../images/icons/star04.svg");
     }
     .section-svg2::after {
-        left: -18px;
-        background-image: url("/src/images/icons/hub02.svg");
+        left: 0px;
+        background-image: url("../images/icons/hub02.svg");
     }
     .section-svg3::after {
-        left: -18px;
-        background-image: url("/src/images/icons/bell05.svg");
+        left: 0px;
+        background-image: url("../images/icons/bell05.svg");
     }
     .section-svg4::after {
-        left: -18px;
-        background-image: url("/src/images/icons/up03.svg");
+        left: 0px;
+        background-image: url("../images/icons/up03.svg");
     }
     .section-svg5::after {
-        left: -18px;
+        left: 0px;
     }
     .section-subtitle {
-        padding: 0 0 22px 42px;
+        padding: 0 0 22px 72px;
     }
     .section-description {
-        padding: 0 0 38px 42px;
-        width: 305px;
+        padding: 0 0 110px 72px;
+        width: 318px;
     }
 }
