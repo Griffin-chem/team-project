@@ -1,5 +1,4 @@
 .footer-wrap {
-  // min-height: 875px;
   background-image: url(../images/footer.jpg);
   background-color: rgb(24, 24, 24);
   background-size: cover;
@@ -39,7 +38,7 @@
   border-radius: 5px;
   border: 0px solid $col-white;
   height: 50px;
-  min-width: 280px;
+  width: 100%;
   padding-left: 20px;
   margin-top: 30px;
 }
@@ -54,11 +53,14 @@
   border-radius: 5px;
   border: 0 solid $col-white;
   height: 175px;
-  min-width: 100%;
+  width: 100%;
   padding-left: 20px;
   padding-top: 15px;
   margin-top: 30px;
-  
+  }
+
+.input-form, .contact-block {
+  min-width: 0;
 }
 
 .button-and {
