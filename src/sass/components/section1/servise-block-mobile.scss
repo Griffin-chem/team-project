@@ -1,5 +1,4 @@
 .servise-block {
-    height: 1082px;
     padding: 0;
     margin: 0 auto;
 }
@@ -37,27 +36,27 @@
 }
 .section-svg::after {
     @extend %features-icon;
-    background-image: url("/src/images/icons/hub02.svg");
+    background-image: url("../images/icons/hub02.svg");
 }
 .section-svg1::after {
     @extend %features-icon;
-    background-image: url("/src/images/icons/hub02.svg");
+    background-image: url("../images/icons/hub02.svg");
 }
 .section-svg2::after {
     @extend %features-icon;
-    background-image: url("/src/images/icons/up03.svg");
+    background-image: url("../images/icons/up03.svg");
 }
 .section-svg3::after {
     @extend %features-icon;
-    background-image: url("/src/images/icons/star04.svg");
+    background-image: url("../images/icons/star04.svg");
 }
 .section-svg4::after {
     @extend %features-icon;
-    background-image: url("/src/images/icons/bell05.svg");
+    background-image: url("../images/icons/bell05.svg");
 }
 .section-svg5::after {
     @extend %features-icon;
-    background-image: url("/src/images/icons/share06.svg");
+    background-image: url("../images/icons/share06.svg");
 }
 .section-subtitle {
     position: relative;
@@ -75,4 +74,7 @@
     line-height: 20px;
     padding: 0 0 38px 70px;
     margin: 0;
+}
+.section-bottom {
+    margin-bottom: 22px;
 }

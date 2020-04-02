@@ -1,7 +1,4 @@
-@media (min-width: 980px){
-    .servise-block {
-        height: 1150px;
-    }
+@media (min-width: 992px){
     .section-paragraph {
         width: 990px;
         position: relative;
@@ -10,12 +7,13 @@
     &::after {
         content: '';
         position: absolute;
-        background-image: url("/src/images/phone.png");
+        background-image: url("../images/phone.png");
         background-repeat: no-repeat;
         background-position: center;
+        background-size: cover;
         width: 418px;
         height: 726px;
-        transform: translate(-482px, 34px);
+        transform: translate(-482px, 114px);
         }
     }
     .section-colums {
@@ -43,13 +41,16 @@
         padding: 0 0 22px 78px;
     }
     .section-description {
-        padding: 0 0 38px 78px;
+        padding: 0 0 98px 78px;
         width: 322px;
+    }
+    .section-bottom {
+        margin-bottom: 50px;
     }
         
 }
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .section-paragraph::after {
-        background-image: url("/src/images/phone@2x.png");
+        background-image: url("../images/phone@2x.png");
   }
 }
