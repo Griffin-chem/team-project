@@ -1,53 +1,78 @@
 @media (min-width: 768px) {
 
-
-.contakt-box {
-    display: flex;
-    justify-content: center;
-}
-
-    .input-inf {
-       width: 270px; 
-    }
-
-    .input-text {
-        width: 572px;
-        margin-top: 30px;
-    }
-
-
-    .before-end {
-margin-top: 70px;
-    }
-
-    .up {
-        display: inline-block;
+    .footer-title {
+        @include font-full($font-title, 28px, bold, $col-white, uppercase);
       }
+
+      .footer-title::before {
+        transform: translate(195px, 11px);
+      }
+      
+      .footer-title::after {
+        transform: translate(-255px, 11px);
+      }
+
+  .input-inf {
+    min-width: 270px;
+  }
+
+  .input-text {
+    min-width: 572px;
+    margin-top: 30px;
+  }
+
+  .before-end {
+    margin-top: 70px;
+  }
+
+  .text-content{
+min-width: 400px;
+  }
+
+  .up {
+    display: inline-block;
+  }
 }
 
-@media (min-width: 980px) {
-    .footer-wrap {
-        min-height: 675px;
-    }
+@media (min-width: 990px) {
+  .footer-wrap {
+    // min-height: 675px;
+  }
 
-    .contakt-footer {
-        display: flex;
-        flex-direction: row-reverse;
+  .footer-title::before {
+    transform: translate(159px, 11px);
+  }
+  
+  .footer-title::after {
+    transform: translate(-199px, 11px);
+  }
+
+  .contakt-footer {
+    display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     margin-top: 100px;
-    }
+  }
 
-    .button {
-        text-align: right;
-        padding-right: 15px;
-       
-    }
+  .input-inf{
+      width: 100%;
+  }
+  .input-text {
+    width: 100%;
+    margin-top: 30px;
+  }
 
-    .button-and {
-        margin-top: 30px;
-    }
+  .button {
+    text-align: right;
+  }
 
-    .text-left {
-        text-align: left;
-    }
+  .button-and {
+    margin-top: 30px;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+
+
 }
