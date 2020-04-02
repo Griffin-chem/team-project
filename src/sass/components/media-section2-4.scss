@@ -1,12 +1,19 @@
 @media (min-width: 768px) {
+  .section-video {
+    padding-top: 80px;
+
+  }
+
   .video-title {
     font-size: 28px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    width: 765px;
   }
 
   .video-text {
     line-height: 1.625;
-    margin-bottom: 28px;
+    margin-bottom: 24px;
+    width: 542px;
   }
 
   .os-download {
@@ -14,89 +21,129 @@
   }
 
   .video {
-    margin-bottom: 110px;
+    margin-bottom: 108px;
   }
 
   .player {
-    width: 504px;
-    height: 310px;
+    width: 502px;
+    height: 304px;
   }
-
 
   .feedback-title {
     font-size: 28px;
-    margin-bottom: 66px;
-
+    margin-bottom: 54px;
+    width: 400px;
   }
 
   .feedback-title::before {
-    transform: translate(-78px, 14px);
+    transform: translate(-78px, 24px);
   }
 
   .feedback-title::after {
-    transform: translate(16px, 14px);
+    transform: translate(16px, 24px);
   }
 
   .feedback-img {
-    margin-bottom: 30px;
+    margin-bottom: 24px;
   }
 
   .post {
-    margin-bottom: 64px;
+    margin-bottom: 57px;
   }
 
   .feedback-text {
     font-size: 18px;
-    margin-bottom: 68px;
+    margin-bottom: 39px;
     line-height: 2;
+    padding-left: 70px;
+    padding-right: 70px;
   }
 
   .feedback-text::before {
     content: '';
-    transform: translate(-60px, -12px);
+    transform: translate(-52px, -12px);
   }
 
   .feedback-slider {
     margin-bottom: 108px;
   }
-
 }
 
-@media (min-width: 1140px) {
+@media (min-width: 992px) {
   .container {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 22px;
+    padding-right: 0;
+  }
+
+  .section-video {
+    padding-top: 78px;
+    margin-right: -85px;
+  }
+
+  .video {
+    margin-bottom: 66px;
   }
 
   .video-title {
     font-size: 28px;
     text-align: left;
+    margin-bottom: 10px;
   }
 
   .video-text {
     text-align: left;
+    margin-bottom: 25px;
   }
 
   .os-download {
     justify-content: left;
   }
 
+  .apple-link {
+    margin-right: 18px;
+  }
+
   .player {
-    width: 498px;
-    height: 310px;
+    width: 496px;
+    height: 304px;
   }
 
   .feedback-title {
     font-size: 28px;
+    margin-bottom: 54px;
+  }
+
+  .feedback-img {
+    margin-bottom: 24px;
+  }
+
+  .feedback-title::before {
+    transform: translate(-93px, 23px);
+  }
+
+  .feedback-title::after {
+    transform: translate(33px, 23px);
+  }
+
+  .name {
+    padding-left: 18px;
   }
 
   .post {
-    margin-bottom: 88px;
+    margin-bottom: 101px;
   }
 
   .feedback-text {
     line-height: 2;
-    margin-bottom: 58px;
+    margin-bottom: 32px;
+    padding-left: 27px;
+    padding-right: 0;
+    margin-left: 29px;
+  }
+
+  .feedback-text::before {
+    content: '';
+    transform: translate(-65px, -12px);
   }
 
 }
