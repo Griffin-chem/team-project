@@ -140,7 +140,6 @@
 
 .left {
   text-align: left;
-
 }
 
 .before-end {
@@ -151,9 +150,8 @@
 }
 
 @media (-webkit-min-device-pixel-ratio: 2),
-  (-o-min-device-pixel-ratio: 2/1),
-  (min-resolution: 192dpi) {
-
+(-o-min-device-pixel-ratio: 2/1),
+(min-resolution: 192dpi) {
   .footer-wrap {
     background-image: url(../images/footer@2x.jpg);
   }
