@@ -70,14 +70,10 @@
 }
 
 @media (min-width: 992px) {
-  .container {
-    padding-left: 22px;
-    padding-right: 0;
-  }
 
   .section-video {
     padding-top: 78px;
-    margin-right: -85px;
+    margin-right: -35px;
   }
 
   .video {
@@ -134,13 +130,17 @@
   }
 
   .feedback-text {
-    line-height: 2;
+    line-height: 35px;
     margin-bottom: 32px;
-    padding-left: 27px;
-    padding-right: 0;
-    margin-left: 29px;
+    padding-left: 23px;
+    padding-right: 139px;
+    margin-left: 93px;
   }
 
+  .feedback-slider {
+    margin-bottom: 128px;
+  }
+  
   .feedback-text::before {
     content: '';
     transform: translate(-65px, -12px);
