@@ -2,6 +2,7 @@
 
     .footer-title {
         @include font-full($font-title, 28px, bold, $col-white, uppercase);
+        margin-bottom: 55px;
       }
 
       .footer-title::before {
@@ -12,17 +13,13 @@
         transform: translate(-255px, 11px);
       }
 
+      .text-box {
+        max-width: 570px;
+      }
+
   .input-inf {
-    min-width: 270px;
+    min-width: 100%;
   }
-
-.info1 {
-    margin-left: 65px;
-}
-
-  .info {
-    margin-left: -65px;
-}
 
   .input-text {
     min-width: 80%;
@@ -32,14 +29,18 @@
   .before-end {
     margin-top: 40px;
   }
-
-  .title-content {
-margin-bottom: 0;
+  .title-content{
+margin-bottom: 10px;
   }
 
-  .text-content{
-    padding-left: 100px; 
-    padding-right: 100px;
+  .text-content {
+max-width: 420px;
+  }
+
+  .icon {
+    margin: 1px;
+    margin-bottom: 27px;
+    margin-top: 40px;
   }
 
   .up {
@@ -48,8 +49,9 @@ margin-bottom: 0;
 }
 
 @media (min-width: 992px) {
-  .footer-wrap {
-    // min-height: 675px;
+  .footer-title {
+    margin-top: 65px;
+    margin-bottom: 80px;
   }
 
 
@@ -57,25 +59,19 @@ margin-bottom: 0;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin-top: 100px;
   }
 
-  .input-inf{
-      width: 260px;
-  }
+
+
+  .text-box {
+        max-width: 575px;
+      }
+
 
   .input-text {
     width: 100%;
     margin-top: 30px;
   }
-
-  .info1 {
-    margin-left: 0px;
-}
-
-  .info {
-    margin-left: 0px;
-}
 
   .button {
     text-align: right;
@@ -86,8 +82,7 @@ margin-bottom: 0;
   }
 
   .text-content{
-    padding-left: 0; 
-    padding-right: 70px;
+    max-width: 425px;
   }
 
   .input-text {
