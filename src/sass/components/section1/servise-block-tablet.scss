@@ -31,7 +31,7 @@
   .section-paragraph {
     width: 646px;
     font-size: 18px;
-    margin: 0 auto 66px;
+    margin: 0 auto 53px;
     line-height: 28px;
   }
 
@@ -60,11 +60,15 @@
   }
 
   .section-subtitle {
-    padding: 0 0 22px 72px;
+    padding: 0 0 11px 56px;
   }
 
   .section-description {
-    padding: 0 0 110px 72px;
+    padding: 0 0 99px 56px;
     width: 318px;
+  }
+
+  .section-bottom {
+    margin-bottom: 14px;
   }
 }

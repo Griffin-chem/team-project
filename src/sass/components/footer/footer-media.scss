@@ -1,32 +1,34 @@
 @media (min-width: 768px) {
 
-    .footer-title {
-        @include font-full($font-title, 28px, bold, $col-white, uppercase);
-      }
-
-      .footer-title::before {
-        transform: translate(195px, 11px);
-      }
-      
-      .footer-title::after {
-        transform: translate(-255px, 11px);
-      }
-
-  .input-inf {
-    min-width: 270px;
+  .footer-title {
+    @include font-full($font-title, 28px, bold, $col-white, uppercase);
+    margin-top: 66px;
+    margin-bottom: 44px;
   }
 
-.info1 {
-    margin-left: 65px;
-}
+  .footer-title::before {
+    transform: translate(188px, 12px);
+  }
 
-  .info {
-    margin-left: -65px;
-}
+  .footer-title::after {
+    transform: translate(-255px, 12px);
+  }
+
+  .input-form {
+    padding-right: 94px;
+    padding-left: 85px;
+    margin-bottom: 50px;
+  }
+
+  .input-inf {
+    width: 100%;
+    height: 44px;
+  }
 
   .input-text {
     min-width: 80%;
     margin-top: 30px;
+    height: 180px;
   }
 
   .before-end {
@@ -34,11 +36,12 @@
   }
 
   .title-content {
-margin-bottom: 0;
+    margin-bottom: -6px;
+    margin-top: 4px;
   }
 
-  .text-content{
-    padding-left: 100px; 
+  .text-content {
+    padding-left: 100px;
     padding-right: 100px;
   }
 
@@ -60,8 +63,8 @@ margin-bottom: 0;
     margin-top: 100px;
   }
 
-  .input-inf{
-      width: 260px;
+  .input-inf {
+    width: 260px;
   }
 
   .input-text {
@@ -71,11 +74,11 @@ margin-bottom: 0;
 
   .info1 {
     margin-left: 0px;
-}
+  }
 
   .info {
     margin-left: 0px;
-}
+  }
 
   .button {
     text-align: right;
@@ -85,8 +88,8 @@ margin-bottom: 0;
     margin-top: 30px;
   }
 
-  .text-content{
-    padding-left: 0; 
+  .text-content {
+    padding-left: 0;
     padding-right: 70px;
   }
 
