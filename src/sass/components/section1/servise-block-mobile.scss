@@ -12,15 +12,19 @@
 .section-title {
   position: relative;
   @include font-full($font-title, 18px, 700, $col-turquoise, uppercase);
-  margin: 60px auto 38px;
+  margin: 56px auto 27px;
   text-align: center;
 
   &::after {
-    @extend %caption-line-after;
+    @extend %caption-line;
+    position: absolute;
+    transform: translate(10px, 9px);
   }
 
   &::before {
-    @extend %caption-line-before;
+    @extend %caption-line;
+    position: absolute;
+    transform: translate(-68px, 9px);
   }
 }
 
@@ -28,8 +32,8 @@
   display: block;
   @include font-full($font-text, 16px, 400, $col-text, none);
   text-align: center;
-  margin: 0 auto 40px;
-  line-height: 24px;
+  margin: 0 auto 33px;
+  line-height: 21px;
 }
 
 .section-svg::before {
@@ -68,7 +72,7 @@
   font-family: $font-title;
   color: $col-text;
   font-weight: bold;
-  padding: 0 0 22px 70px;
+  padding: 0 0 11px 65px;
   margin: 0;
 }
 
@@ -76,8 +80,8 @@
   font-size: 13px;
   font-family: $font-text;
   color: $col-text;
-  line-height: 20px;
-  padding: 0 0 38px 70px;
+  line-height: 24px;
+  padding: 0 0 29px 65px;
   margin: 0;
 }
 

@@ -2,7 +2,7 @@
   .section-paragraph {
     width: 990px;
     position: relative;
-    margin: 0 auto 162px;
+    margin: 0 auto 154px;
     line-height: 32px;
 
     &::after {
@@ -18,8 +18,8 @@
     }
   }
 
-  .section-colums {
-    width: 1146px;
+  .servise-block {
+    padding-bottom: 46px;
   }
 
   .section-svg::after {
@@ -46,12 +46,17 @@
     left: 4px;
   }
 
+  .section-title {
+    margin-top: 115px;
+    margin-bottom: 80px;
+  }
+
   .section-subtitle {
-    padding: 0 0 22px 78px;
+    padding: 0 0 12px 70px;
   }
 
   .section-description {
-    padding: 0 0 98px 78px;
+    padding: 0 0 98px 70px;
     width: 322px;
   }
 
